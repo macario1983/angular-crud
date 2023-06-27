@@ -10,7 +10,9 @@ const routes: Routes = [
   {
     path: 'disciplina',
     loadChildren: () =>
-      import('./disciplina/disciplina-routing.module').then((m) => m.DisciplinaRoutingModule),
+      import('./disciplina/disciplina-routing.module').then(
+        (m) => m.DisciplinaRoutingModule
+      ),
   },
 ];
 
