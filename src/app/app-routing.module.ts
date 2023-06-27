@@ -7,6 +7,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./aluno/aluno-routing.module').then((m) => m.AlunoRoutingModule),
   },
+  {
+    path: 'disciplina',
+    loadChildren: () =>
+      import('./disciplina/disciplina-routing.module').then((m) => m.DisciplinaRoutingModule),
+  },
 ];
 
 @NgModule({
