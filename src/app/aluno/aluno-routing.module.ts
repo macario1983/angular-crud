@@ -4,6 +4,7 @@ import { FormAlunoComponent } from './form-aluno/form-aluno.component';
 import { ListAlunoComponent } from './list-aluno/list-aluno.component';
 
 const routes: Routes = [
+  { path: '', component: ListAlunoComponent },
   { path: 'add', component: FormAlunoComponent },
   { path: 'edit', component: FormAlunoComponent },
   { path: 'list', component: ListAlunoComponent },
